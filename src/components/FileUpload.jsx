@@ -1,5 +1,5 @@
 
-import { CloudUpload, Link, File, Trash2 } from "lucide-react";
+import { CloudUpload, Link, File, Trash2, InfoIcon } from "lucide-react";
 import { useState } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
@@ -25,10 +25,13 @@ const FileUpload = () => {
   return (
     <div className="w-full h-screen p-6 bg-foreground text-white rounded-2xl">
       {/* Header */}
-      <p className="text-sm text-gray-400 text-center mb-2">
-        The web version does not display local chats. To access all features, please{" "}
-        <span className="text-yellow-400 cursor-pointer">install the app.</span>
-      </p>
+      <div className="flex items-center justify-center mb-2">
+      <div className="text-sm text-text text-center  bg-[#242424] px-3 py-2 rounded-full w-fit flex items-center gap-3">
+        <span className="text-accent-orange2"><InfoIcon /></span>
+        <p className="text-sm">The web version does not display local chats. To access all features, please
+        <span className="text-accent-orange2 cursor-pointer"> install the app.</span></p>
+      </div>
+      </div>
 
       <h2 className="text-2xl font-bold text-center mb-2">
         Add Files to <span className="text-blue-400">Cloud Chat</span>
