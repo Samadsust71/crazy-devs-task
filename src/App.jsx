@@ -1,9 +1,12 @@
+import Sidebar from "./components/Sidebar";
 import { Button } from "./components/ui/button";
 
 const App = () => {
   return <>
   
-   <Button>Hello world</Button>
+   <div>
+    <Sidebar/>
+   </div>
   </>;
 };
 
