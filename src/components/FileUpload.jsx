@@ -23,7 +23,7 @@ const FileUpload = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-6 bg-black text-white rounded-lg border border-gray-700">
+    <div className="w-full h-screen p-6 bg-foreground text-white rounded-2xl">
       {/* Header */}
       <p className="text-sm text-gray-400 text-center mb-2">
         The web version does not display local chats. To access all features, please{" "}
