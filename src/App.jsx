@@ -1,11 +1,13 @@
+import FileUpload from "./components/FileUpload";
 import Sidebar from "./components/Sidebar";
-import { Button } from "./components/ui/button";
+
 
 const App = () => {
   return <>
   
-   <div>
+   <div className="flex items-center">
     <Sidebar/>
+    <FileUpload/>
    </div>
   </>;
 };
