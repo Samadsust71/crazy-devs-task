@@ -24,9 +24,9 @@ const files = [
 
 const FileUpload = () => {
   return (
-    <div className="w-full  p-6 bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px]">
+    <div className="p-4 bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px]">
       {/* Header */}
-      <div className="flex items-center justify-center mb-2">
+      <div className="flex items-center justify-center mb-20 mt-5">
         <div className="text-sm text-text text-center  bg-[#242424] px-3 py-2 rounded-full w-fit flex items-center gap-3">
           <span className="text-accent-orange2">
             <InfoIcon />

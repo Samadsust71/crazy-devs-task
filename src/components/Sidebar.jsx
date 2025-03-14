@@ -6,7 +6,7 @@ import userImg from "../assets/user.png"
 
 const Sidebar = () => {
   return (
-    <div className="w-[280px] h-screen text-text flex flex-col justify-between ">
+    <div className="w-[280px] h-screen text-text flex flex-col justify-between  p-7">
       {/* Top Section */}
       <div>
         <div className="flex items-center justify-between">
