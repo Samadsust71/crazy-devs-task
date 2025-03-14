@@ -73,12 +73,12 @@ const FileUpload = () => {
               <img src={url} alt="url" />
               <div className="">
                 <p className="text-lg font-semibold">Enter in a public URL:</p>
-                <div className="flex items-center justify-between mt-2 gap-2 bg-[#353535] rounded-full focus:border border-accent">
+                <div className="flex items-center justify-between mt-2 gap-2 bg-[#353535] rounded-full border border-transparent focus-within:border-accent-orange2 transition-all duration-200">
                   <Input
                     placeholder="https://example.com/file.pdf"
-                    className=" bg-transparent placeholder:text-[#7E7C78] placeholder:text-xs outline-none border-none"
+                    className="h-10 bg-transparent placeholder:text-[#7E7C78] placeholder:text-xs outline-none border-none w-full"
                   />
-                  <button className="bg-white/15 rounded-full px-4 py-2">
+                  <button className="bg-white/15 rounded-full px-4 h-10 text-text hover:bg-accent text-sm font-semibold">
                     Add
                   </button>
                 </div>
