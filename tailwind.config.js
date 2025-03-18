@@ -20,11 +20,20 @@ export default {
         secondary: {
           DEFAULT: "rgba(255, 255, 255, 0.15)",
         },
+        icon:"#878787",
         accent: {
           DEFAULT: "#FFBF00",
           orange2: "#FB9937",
           orange3: "#F37F0C",
         },
+        sidebar: {
+  				DEFAULT: 'hsl(var(--sidebar-background))',
+  				foreground: 'hsl(var(--sidebar-foreground))',
+  				primary: 'hsl(var(--sidebar-primary))',
+  				'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+  				accent: 'hsl(var(--sidebar-accent))',
+  				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+  			}
       },
     },
   },

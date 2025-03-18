@@ -1,21 +1,15 @@
+import AppSidebar from "./components/AppSidebar";
 import FileUpload from "./components/FileUpload";
-import Sidebar from "./components/Sidebar";
+import { Sidebar, SidebarProvider } from "./components/ui/sidebar";
 
 const App = () => {
   return (
-    <div className="bg-background">
-      <div className="flex w-full  h-screen">
-        {/* Sidebar (Static) */}
-        <div className="w-[280px] h-screen">
-          <Sidebar />
-        </div>
-
-        {/* FileUpload (Scrollable) */}
-        <div className="flex-1 h-screen overflow-y-auto">
-          <FileUpload />
-        </div>
-      </div>
-    </div>
+    <main className="flex w-full p-4">
+      <AppSidebar />
+      {/* <div className="flex-1">
+      <FileUpload />
+      </div> */}
+    </main>
   );
 };
 

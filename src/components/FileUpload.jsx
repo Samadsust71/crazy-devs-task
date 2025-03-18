@@ -23,7 +23,7 @@ const files = [
 
 const FileUpload = () => {
   return (
-    <div className="m-4 p-5 pb-20 bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px] min-h-[calc(100vh-40px)] h-auto">
+    <div className=" bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px] h-auto">
       {/* Header */}
       <div className="flex flex-col justify-center items-center">
         <div className="flex items-center justify-center mb-20 mt-5">
