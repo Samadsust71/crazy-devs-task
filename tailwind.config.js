@@ -8,11 +8,12 @@ export default {
         background: "#242424",
         foreground: "#2B2B2B",
         card: {
-          DEFAULT: "#363636",
+          DEFAULT: "#383838",
         },
         text: {
           DEFAULT: "#FFFFFF",
           secondary: "#B7B7B7",
+          disabled:"#7E7C78"
         },
         primary: {
           DEFAULT: "rgba(255, 255, 255, 0.15)",
@@ -21,6 +22,8 @@ export default {
           DEFAULT: "rgba(255, 255, 255, 0.15)",
         },
         icon:"#878787",
+        field: "#242424",
+        input:"#353535",
         accent: {
           DEFAULT: "#FFBF00",
           orange2: "#FB9937",
