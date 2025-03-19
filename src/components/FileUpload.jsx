@@ -94,7 +94,7 @@ const FileUpload = () => {
               Start
             </Button>
             <span>or</span>
-            <Button className=" bg-primary hover:bg-gradient-to-b from-[#FFBF00] to-[#FB9937]  text-text  rounded-full px-8 py-[23px] text-base leading-[21.6px] -tracking-[0.32px] w-[240px] stroke-white fill-white">
+            <Button className="bg-primary hover:bg-gradient-to-b from-[#FFBF00] to-[#FB9937]  text-text  rounded-full px-8 py-[23px] text-base leading-[21.6px] -tracking-[0.32px] w-[240px] stroke-white fill-white">
               <Sparkle/>
               Start with Deep Dive
             </Button>
