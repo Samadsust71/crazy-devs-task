@@ -15,6 +15,8 @@ import Cloud from "./file-input-components/Cloud";
 import SelectedFile from "./file-input-components/SelectedFile";
 import Sparkle from "./svg-components/Sparkle";
 import CustomInput from "./file-input-components/CustomInput";
+import TogglerNav from "./file-input-components/TogglerNav";
+import { useSidebar } from "./ui/sidebar";
 
 const files = [
   { name: "Report_file.pdf", forceOCR: false },
@@ -22,9 +24,14 @@ const files = [
 ];
 
 const FileUpload = () => {
+  const {open} = useSidebar()
   return (
-    <div className="bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px] h-auto p-5">
-      <div className="flex flex-col w-full ">
+    <div className="bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px] h-auto">
+      <div className="flex flex-col w-full relative p-5">
+
+        {
+          !open && <TogglerNav/>
+        }
         {/* install(header) section */}
         <Header/>
 
