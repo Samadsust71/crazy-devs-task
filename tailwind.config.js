@@ -7,6 +7,7 @@ export default {
       colors: {
         background: "#242424",
         foreground: "#2B2B2B",
+        tooltip: "rgba(30, 30, 30, 1)",
         card: {
           DEFAULT: "#383838",
         },

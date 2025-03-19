@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import userImg from "../assets/user.png";
+import userImg from "../assets/avatar.jpg";
 import {
   Sidebar,
   SidebarContent,
@@ -72,7 +72,7 @@ const AppSidebar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
             <span className="relative flex h-9 w-9 shrink-0 overflow-hidden rounded-full">
-              <img className="aspect-square h-full w-full" src={userImg} />
+              <img className="aspect-square h-full w-full" src={userImg} alt="user"/>
             </span>
             <span className="text-sm font-[500] -tracking-[0.28px]">
               Jessica Mills

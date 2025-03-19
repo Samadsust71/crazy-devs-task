@@ -39,7 +39,7 @@ const Header = () => {
             <span className="text-[14px] leading-[18.9px] -tracking-[0.14px]">
               The web version does not display local chats. To access all
               features, please{" "}
-              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 text-accent-orange2 active:text-accent-orange3 disabled:text-btn-disabled hover:bg-orange-linear hover:bg-clip-text hover:text-accent-orange2 transition-none p-1">
+              <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 text-accent-orange2 active:text-accent-orange3 disabled:text-btn-disabled hover:bg-orange-linear hover:bg-clip-text hover:text-[#FCAA1C] transition-none p-1">
                 install the app.
               </button>
             </span>

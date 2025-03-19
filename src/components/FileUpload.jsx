@@ -17,6 +17,7 @@ import Sparkle from "./svg-components/Sparkle";
 import CustomInput from "./file-input-components/CustomInput";
 import TogglerNav from "./file-input-components/TogglerNav";
 import { useSidebar } from "./ui/sidebar";
+import dottedBG from "../assets/dotted-bg.png"
 
 const files = [
   { name: "Report_file.pdf", forceOCR: false },
@@ -26,7 +27,8 @@ const files = [
 const FileUpload = () => {
   const {open} = useSidebar()
   return (
-    <div className="bg-foreground text-text rounded-2xl bg-[radial-gradient(circle,_rgba(255,255,255,0.05)_1px,_transparent_1px)] [background-size:30px_30px] h-auto">
+    <div className="relative bg-foreground text-text rounded-2xl overflow-hidden">
+    <img src={dottedBG}  className="absolute left-[50%] top-[50%] -z-[0]  -translate-x-[50%] -translate-y-[calc(50%+100px)]"/>
       <div className="flex flex-col w-full relative p-5">
 
         {
@@ -94,7 +96,7 @@ const FileUpload = () => {
               Start
             </Button>
             <span>or</span>
-            <Button className="bg-primary hover:bg-gradient-to-b from-[#FFBF00] to-[#FB9937]  text-text  rounded-full px-8 py-[23px] text-base leading-[21.6px] -tracking-[0.32px] w-[240px] stroke-white fill-white">
+            <Button  className="bg-primary hover:bg-gradient-to-b from-[#FFBF00] to-[#FB9937]  text-text  rounded-full px-8 py-[23px] text-base leading-[21.6px] -tracking-[0.32px] w-[240px]">
               <Sparkle/>
               Start with Deep Dive
             </Button>
@@ -117,14 +119,14 @@ const FileUpload = () => {
                       </svg>
                     </div>
                   </TooltipTrigger>
-                  <TooltipContent>
-                    <div className="text-white w-[226px] text-xs">
+                  <TooltipContent className= "text-xs leading-[14.4px] -tracking-[0.12px] text-text">
+                    
                       <p>
                         Deep Dive processes documents section by section for
                         "unlimited" context, enabling complete answers. Run once
                         per chat to unlock Table AI and Prompt Loops
                       </p>
-                    </div>
+                    
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>
