@@ -13,7 +13,7 @@ export default {
         text: {
           DEFAULT: "#FFFFFF",
           secondary: "#B7B7B7",
-          disabled:"#7E7C78"
+          disabled:"#606161"
         },
         primary: {
           DEFAULT: "rgba(255, 255, 255, 0.15)",

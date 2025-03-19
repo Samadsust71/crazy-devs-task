@@ -5,17 +5,17 @@ import {
   SidebarContent,
   SidebarFooter,
   SidebarHeader,
-  useSidebar,
 } from "./ui/sidebar";
 import Logo from "./svg-components/Logo";
 import Search from "./svg-components/Search";
 import LeftSidebarIcon from "./svg-components/LeftSidebarIcon";
 import Flow from "./svg-components/Flow";
 import Settings from "./svg-components/Settings";
+import Plus from "./svg-components/Plus";
 
 const AppSidebar = () => {
-  const {open} = useSidebar()
-  console.log(open)
+  
+  
   return (
     <Sidebar variant={"floating"} className="text-text p-4 pr-0">
       {/* Top Section */}
@@ -34,15 +34,15 @@ const AppSidebar = () => {
         <div className=" flex flex-col gap-3">
           <Button
             variant="outline"
-            className=" font-semibold text-sm w-full border-white/15 bg-background rounded-full px-6 py-[17px]"
+            className="flex items-center gap-1 font-semibold text-sm w-full border-white/15 bg-background rounded-full px-6 py-[17px]"
           >
-            + Add folder
+            <Plus/> <span>Add folder</span>
           </Button>
           <Button
             variant="outline"
-            className="bg-white/15 font-semibold text-sm w-full border-none rounded-full hover:bg-white/15 px-6 py-[17px]"
+            className="flex items-center gap-1 bg-white/15 font-semibold text-sm w-full border-none rounded-full hover:bg-white/15 px-6 py-[17px]"
           >
-            + Create chat
+            <Plus/> <span>Create chat</span>
           </Button>
         </div>
       </SidebarContent>

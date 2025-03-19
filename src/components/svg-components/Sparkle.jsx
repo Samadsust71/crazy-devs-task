@@ -1,12 +1,12 @@
 const Sparkle = () => {
   return (
-    <div className="flex items-center justify-center bg-transparent duration-75 rounded-none fill-white ">
+    <div className="flex items-center justify-center bg-transparent duration-75 rounded-none">
       <svg
         width="20"
         height="20"
         viewBox="0 0 20 20"
         stroke="none"
-        className="w-full h-full fill-white text-white"
+        className="h-6 w-6 flex items-center justify-center bg-transparent duration-75 rounded-none"
       >
         <path
           d="M5.16801 3.22432C5.4022 2.25856 6.77573 2.25856 7.00991 3.22432L7.65428 5.88168C7.73789 6.22648 8.00711 6.4957 8.35191 6.57931L11.0093 7.22368C11.975 7.45786 11.975 8.83139 11.0093 9.06557L8.35191 9.70994C8.00711 9.79355 7.73789 10.0628 7.65428 10.4076L7.00991 13.0649C6.77573 14.0307 5.4022 14.0307 5.16801 13.0649L4.52364 10.4076C4.44003 10.0628 4.17082 9.79355 3.82601 9.70994L1.16866 9.06557C0.202896 8.83139 0.202895 7.45786 1.16866 7.22368L3.82601 6.57931C4.17082 6.4957 4.44003 6.22648 4.52364 5.88168L5.16801 3.22432Z"
