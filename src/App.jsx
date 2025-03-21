@@ -1,6 +1,6 @@
 import AppSidebar from "./components/AppSidebar";
 import FileUpload from "./components/FileUpload";
-import { Sidebar, SidebarProvider } from "./components/ui/sidebar";
+
 
 const App = () => {
   return (

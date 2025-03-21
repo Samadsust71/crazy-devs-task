@@ -1,6 +1,6 @@
 const Plus = () => {
   return (
-    <div className="flex items-center justify-center bg-transparent duration-75 rounded-none fill-white stroke-white">
+    <div className="flex items-center justify-center bg-transparent duration-75 rounded-none cursor-pointer fill-icon stroke-icon hover:fill-white hover:stroke-white">
       <svg
         width="20"
         height="20"
@@ -11,14 +11,14 @@ const Plus = () => {
       >
         <path
           d="M5 10H15"
-          stroke="white"
+          stroke="inherit"
           strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
         />
         <path
           d="M10 15V5"
-          stroke="white"
+          stroke="inherit"
           strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
