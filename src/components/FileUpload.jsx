@@ -27,7 +27,7 @@ const files = [
 const FileUpload = () => {
   const {open} = useSidebar()
   return (
-    <div className="relative bg-foreground text-text rounded-2xl overflow-hidden">
+    <div className="relative bg-foreground text-text rounded-2xl overflow-hidden w-full">
     <img src={dottedBG}  className="absolute left-[50%] top-[50%] -z-[0]  -translate-x-[50%] -translate-y-[calc(50%+100px)]"/>
       <div className="flex flex-col w-full relative p-5">
 

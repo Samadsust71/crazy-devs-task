@@ -6,9 +6,7 @@ const App = () => {
   return (
     <main className="flex w-full p-4">
       <AppSidebar />
-      <div className="flex-1">
       <FileUpload />
-      </div>
     </main>
   );
 };
