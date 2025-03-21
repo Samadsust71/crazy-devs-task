@@ -27,7 +27,7 @@ const AddFolder = () => {
         </BreadcrumbItem>
         <CustomSeparator />
         <BreadcrumbItem>
-          <BreadcrumbPage className="text-text">
+          <BreadcrumbPage className="text-text cursor-default">
             Beta
           </BreadcrumbPage>
         </BreadcrumbItem>
